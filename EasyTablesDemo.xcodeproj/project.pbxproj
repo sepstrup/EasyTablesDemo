@@ -16,6 +16,7 @@
 		5D4710661F5A009A00E4F2D2 /* EasyTables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4710631F5A001F00E4F2D2 /* EasyTables.framework */; };
 		5D4710671F5A009A00E4F2D2 /* EasyTables.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4710631F5A001F00E4F2D2 /* EasyTables.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D58B0751F5FE36B00C6D9F5 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D58B0741F5FE36B00C6D9F5 /* CellData.swift */; };
+		F79E68BFB3AD92519155B6EF /* Pods_EasyTablesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5D3534951F613DB400FAB43F /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
 		5D47103A1F5971F700E4F2D2 /* EasyTablesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTablesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47103D1F5971F700E4F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 		5D4710591F59737500E4F2D2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5D47105E1F5A001F00E4F2D2 /* EasyTables.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyTables.xcodeproj; path = ../EasyTables/EasyTables.xcodeproj; sourceTree = "<group>"; };
 		5D58B0741F5FE36B00C6D9F5 /* CellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTablesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D4710661F5A009A00E4F2D2 /* EasyTables.framework in Frameworks */,
+				F79E68BFB3AD92519155B6EF /* Pods_EasyTablesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				5D47103C1F5971F700E4F2D2 /* EasyTablesDemo */,
 				5D47103B1F5971F700E4F2D2 /* Products */,
 				5D47104F1F59727D00E4F2D2 /* Frameworks */,
+				CA81C7664F1C4DCF17868DE8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +116,7 @@
 		5D47104F1F59727D00E4F2D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +129,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CA81C7664F1C4DCF17868DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */,
+				2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +145,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D47104C1F5971F700E4F2D2 /* Build configuration list for PBXNativeTarget "EasyTablesDemo" */;
 			buildPhases = (
+				56A9D5655D6A900B9371DD71 /* [CP] Check Pods Manifest.lock */,
 				5D4710361F5971F700E4F2D2 /* Sources */,
 				5D4710371F5971F700E4F2D2 /* Frameworks */,
 				5D4710381F5971F700E4F2D2 /* Resources */,
 				5D47106A1F5A009A00E4F2D2 /* Embed Frameworks */,
+				A6D24A83523EFE59448E8F22 /* [CP] Embed Pods Frameworks */,
+				CF7DAD304A12597654CA7C88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +226,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A9D5655D6A900B9371DD71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyTablesDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D24A83523EFE59448E8F22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyTables/EasyTables.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTables.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7DAD304A12597654CA7C88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D4710361F5971F700E4F2D2 /* Sources */ = {
@@ -345,6 +418,7 @@
 		};
 		5D47104D1F5971F700E4F2D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -359,6 +433,7 @@
 		};
 		5D47104E1F5971F700E4F2D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
