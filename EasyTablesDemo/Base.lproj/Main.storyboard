@@ -19,7 +19,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="basic" textLabel="CU4-by-KNf" style="IBUITableViewCellStyleDefault" id="zAE-IX-0P1">
-                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zAE-IX-0P1" id="lP8-YM-Mog">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -36,7 +36,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="subtitle" textLabel="puz-oW-ndO" detailTextLabel="7Bi-CV-IJ6" style="IBUITableViewCellStyleValue1" id="aoi-LH-jGf" customClass="SpecialTableViewCell" customModule="EasyTablesDemo" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="99.5" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aoi-LH-jGf" id="bWt-Nx-vYd">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
