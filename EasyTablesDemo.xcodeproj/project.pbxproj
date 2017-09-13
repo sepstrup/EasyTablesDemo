@@ -13,10 +13,8 @@
 		5D4710451F5971F700E4F2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4710441F5971F700E4F2D2 /* Assets.xcassets */; };
 		5D4710481F5971F700E4F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4710461F5971F700E4F2D2 /* LaunchScreen.storyboard */; };
 		5D47105A1F59737500E4F2D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4710591F59737500E4F2D2 /* TableViewController.swift */; };
-		5D4710661F5A009A00E4F2D2 /* EasyTables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4710631F5A001F00E4F2D2 /* EasyTables.framework */; };
-		5D4710671F5A009A00E4F2D2 /* EasyTables.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4710631F5A001F00E4F2D2 /* EasyTables.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D58B0751F5FE36B00C6D9F5 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D58B0741F5FE36B00C6D9F5 /* CellData.swift */; };
-		F79E68BFB3AD92519155B6EF /* Pods_EasyTablesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */; };
+		882980BDA77450836DF8AA30 /* Pods_EasyTablesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10C56C1BC99F896E3735CE0 /* Pods_EasyTablesDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,23 +25,15 @@
 			remoteGlobalIDString = 5DEA0E371F570B6B00B2972A;
 			remoteInfo = EasyTables;
 		};
-		5D4710681F5A009A00E4F2D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D47105E1F5A001F00E4F2D2 /* EasyTables.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5DEA0E361F570B6B00B2972A;
-			remoteInfo = EasyTables;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5D47106A1F5A009A00E4F2D2 /* Embed Frameworks */ = {
+		5D01A7B91F69642800BB30C3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5D4710671F5A009A00E4F2D2 /* EasyTables.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5D3534951F613DB400FAB43F /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
 		5D47103A1F5971F700E4F2D2 /* EasyTablesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTablesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47103D1F5971F700E4F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +51,9 @@
 		5D4710591F59737500E4F2D2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5D47105E1F5A001F00E4F2D2 /* EasyTables.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyTables.xcodeproj; path = ../EasyTables/EasyTables.xcodeproj; sourceTree = "<group>"; };
 		5D58B0741F5FE36B00C6D9F5 /* CellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
-		9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTablesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BDF10DA9065AADAB65E02 /* Pods-EasyTablesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F19C05E5DF09D316D6909CD /* Pods-EasyTablesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTablesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C10C56C1BC99F896E3735CE0 /* Pods_EasyTablesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTablesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D4710661F5A009A00E4F2D2 /* EasyTables.framework in Frameworks */,
-				F79E68BFB3AD92519155B6EF /* Pods_EasyTablesDemo.framework in Frameworks */,
+				882980BDA77450836DF8AA30 /* Pods_EasyTablesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +74,8 @@
 				5D47105E1F5A001F00E4F2D2 /* EasyTables.xcodeproj */,
 				5D47103C1F5971F700E4F2D2 /* EasyTablesDemo */,
 				5D47103B1F5971F700E4F2D2 /* Products */,
-				5D47104F1F59727D00E4F2D2 /* Frameworks */,
-				CA81C7664F1C4DCF17868DE8 /* Pods */,
+				7999ADCA961CC11CDBCABDEF /* Pods */,
+				B759DC3D1EBA4D7A3D1F2C7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,14 +102,6 @@
 			path = EasyTablesDemo;
 			sourceTree = "<group>";
 		};
-		5D47104F1F59727D00E4F2D2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				96AFF52AECFB04F514FDCE4F /* Pods_EasyTablesDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5D47105F1F5A001F00E4F2D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,13 +110,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA81C7664F1C4DCF17868DE8 /* Pods */ = {
+		7999ADCA961CC11CDBCABDEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */,
-				2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */,
+				740BDF10DA9065AADAB65E02 /* Pods-EasyTablesDemo.debug.xcconfig */,
+				7F19C05E5DF09D316D6909CD /* Pods-EasyTablesDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B759DC3D1EBA4D7A3D1F2C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C10C56C1BC99F896E3735CE0 /* Pods_EasyTablesDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,18 +134,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D47104C1F5971F700E4F2D2 /* Build configuration list for PBXNativeTarget "EasyTablesDemo" */;
 			buildPhases = (
-				56A9D5655D6A900B9371DD71 /* [CP] Check Pods Manifest.lock */,
+				AE0DDE8517D9176973E29723 /* [CP] Check Pods Manifest.lock */,
 				5D4710361F5971F700E4F2D2 /* Sources */,
 				5D4710371F5971F700E4F2D2 /* Frameworks */,
 				5D4710381F5971F700E4F2D2 /* Resources */,
-				5D47106A1F5A009A00E4F2D2 /* Embed Frameworks */,
-				A6D24A83523EFE59448E8F22 /* [CP] Embed Pods Frameworks */,
-				CF7DAD304A12597654CA7C88 /* [CP] Copy Pods Resources */,
+				5D01A7B91F69642800BB30C3 /* Embed Frameworks */,
+				BA2A373B297A6D5A7E7F465A /* [CP] Embed Pods Frameworks */,
+				488E0855E420B1B9B2BB5C73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D4710691F5A009A00E4F2D2 /* PBXTargetDependency */,
 			);
 			name = EasyTablesDemo;
 			productName = EasyTablesDemo;
@@ -170,12 +158,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = powerLABS;
 				TargetAttributes = {
 					5D4710391F5971F700E4F2D2 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = VV9533Q8L7;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -228,7 +217,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56A9D5655D6A900B9371DD71 /* [CP] Check Pods Manifest.lock */ = {
+		488E0855E420B1B9B2BB5C73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0DDE8517D9176973E29723 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +250,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6D24A83523EFE59448E8F22 /* [CP] Embed Pods Frameworks */ = {
+		BA2A373B297A6D5A7E7F465A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,21 +268,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF7DAD304A12597654CA7C88 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTablesDemo/Pods-EasyTablesDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -294,14 +283,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D4710691F5A009A00E4F2D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EasyTables;
-			targetProxy = 5D4710681F5A009A00E4F2D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D4710411F5971F700E4F2D2 /* Main.storyboard */ = {
@@ -333,7 +314,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -341,7 +324,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,7 +370,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -391,7 +380,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,31 +411,29 @@
 		};
 		5D47104D1F5971F700E4F2D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9051E3E467EFC2F4E7F47AAA /* Pods-EasyTablesDemo.debug.xcconfig */;
+			baseConfigurationReference = 740BDF10DA9065AADAB65E02 /* Pods-EasyTablesDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VV9533Q8L7;
 				INFOPLIST_FILE = EasyTablesDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.powerlabs.EasyTablesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		5D47104E1F5971F700E4F2D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C507B6225EAA88A4EA79CC6 /* Pods-EasyTablesDemo.release.xcconfig */;
+			baseConfigurationReference = 7F19C05E5DF09D316D6909CD /* Pods-EasyTablesDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VV9533Q8L7;
 				INFOPLIST_FILE = EasyTablesDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.powerlabs.EasyTablesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

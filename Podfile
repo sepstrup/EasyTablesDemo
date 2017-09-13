@@ -6,6 +6,6 @@ target 'EasyTablesDemo' do
   use_frameworks!
 
   # Pods for EasyTablesDemo
-  pod 'EasyTables', :git => 'https://github.com/sepstrup/EasyTables.git', :tag => '0.1.3'
+  pod 'EasyTables', :git => 'https://github.com/sepstrup/EasyTables.git'
 
 end

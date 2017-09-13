@@ -1,0 +1,21 @@
+PODS:
+  - EasyTables (0.1.3)
+
+DEPENDENCIES:
+  - EasyTables (from `https://github.com/sepstrup/EasyTables.git`)
+
+EXTERNAL SOURCES:
+  EasyTables:
+    :git: https://github.com/sepstrup/EasyTables.git
+
+CHECKOUT OPTIONS:
+  EasyTables:
+    :commit: 9f3b06b6f2766fac6cb1d703c12a31902522a7a1
+    :git: https://github.com/sepstrup/EasyTables.git
+
+SPEC CHECKSUMS:
+  EasyTables: 8adc31e2cffc64776765f53c3ee6a7036862e1cf
+
+PODFILE CHECKSUM: d5ec265e7ed20a4d6b52aa684b9d1a89aab378ea
+
+COCOAPODS: 1.3.1
