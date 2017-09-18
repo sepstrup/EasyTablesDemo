@@ -1,10 +1,10 @@
-//
-//  CellData.swift
-//  EasyTablesDemo
-//
-//  Created by Peter Sepstrup on 6/9/17.
-//  Copyright © 2017 powerLABS. All rights reserved.
-//
+///**
+/**
+ * EasyTables
+ * Created by: Peter Sepstrup on 6/9/17
+ *
+ * License: MIT
+ */
 
 import Foundation
 import EasyTables
