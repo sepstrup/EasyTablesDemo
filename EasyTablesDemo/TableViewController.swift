@@ -16,6 +16,10 @@ class TableViewController: EasyTableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func loadDataSource() {
+        super.loadDataSource()
         // add 2 sections with 3 rows each
         for i in 0...1 {
             let section = TableSection(title: "Section \(i)")

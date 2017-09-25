@@ -1,10 +1,10 @@
-//
-//  TableSection.swift
-//  EasyTables
-//
-//  Created by Peter Sepstrup on 1/9/17.
-//  Copyright © 2017 powerLABS. All rights reserved.
-//
+///**
+/**
+ * EasyTables
+ * Created by: Peter Sepstrup on 1/9/17
+ *
+ * License: MIT
+ */
 
 import Foundation
 
@@ -12,6 +12,7 @@ public class TableSection: Equatable {
     
     public var title: String?
     public var rows: [TableCellInfo] = []
+    private var uuid: String
     
     public var count: Int {
         get {
@@ -19,11 +20,11 @@ public class TableSection: Equatable {
         }
     }
     
-    public static func ==(lhs: TableSection, rhs: TableSection) -> Bool {
-        return lhs.uuid == rhs.uuid
+    public var isEmpty: Bool {
+        get {
+            return count == 0
+        }
     }
-    
-    private var uuid: String
     
     public required init() {
         uuid = UUID().uuidString
@@ -62,6 +63,10 @@ public class TableSection: Equatable {
         }
         self.rows = newRows
         uuid = UUID().uuidString
+    }
+    
+    public static func ==(lhs: TableSection, rhs: TableSection) -> Bool {
+        return lhs.uuid == rhs.uuid
     }
     
     public func add(row: TableCellInfo) {
@@ -106,8 +111,16 @@ public class TableSection: Equatable {
         add(rows: newRows, at: at)
     }
     
+    public func delete(row: Int) {
+        rows.remove(at: row)
+    }
+    
     public func row(at: Int) -> TableCellInfo {
         return rows[at]
+    }
+    
+    public func index(of: TableCellInfo) -> Int? {
+        return rows.index(of: of)
     }
     
 }

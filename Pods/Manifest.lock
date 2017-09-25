@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   EasyTables:
-    :commit: 9f3b06b6f2766fac6cb1d703c12a31902522a7a1
+    :commit: c7c04a24fd7036afd271e9749ba8a760146079a2
     :git: https://github.com/sepstrup/EasyTables.git
 
 SPEC CHECKSUMS:

@@ -1,15 +1,18 @@
-//
-//  Sections.swift
-//  EasyTables
-//
-//  Created by Peter Sepstrup on 1/9/17.
-//  Copyright © 2017 powerLABS. All rights reserved.
-//
+///**
+/**
+ * EasyTables
+ * Created by: Peter Sepstrup on 1/9/17
+ *
+ * License: MIT
+ */
 
 import Foundation
 
 public class EasyTable {
     
+    /**
+     This is needed to do updates to the view after rendering
+     */
     var tableView: UITableView?
     
     public var sections: [TableSection] = []
@@ -20,6 +23,12 @@ public class EasyTable {
         }
     }
     
+    public var isEmpty: Bool {
+        get {
+            return count == 0
+        }
+    }
+    
     public init() {
         
     }
@@ -27,6 +36,8 @@ public class EasyTable {
     public init(tableView: UITableView) {
         self.tableView = tableView
     }
+    
+    
     
     public func section(at: Int) -> TableSection {
         return get(at: at)
@@ -66,6 +77,17 @@ public class EasyTable {
         return self.at(index: at.section).row(at: at.row)
     }
     
+    public func delete(section: Int) {
+        sections.remove(at: section)
+    }
+    
+    public func delete(row: IndexPath) {
+        sections[row.section].rows.remove(at: row.row)
+    }
+    
+    /**
+     Add rows in the view, inserted with animation
+     */
     public func addRowsBelow(indexPath: IndexPath, data: [TableCellInfo]) {
         guard let table = tableView else { return }
         let section = at(index: indexPath.section)
@@ -81,6 +103,9 @@ public class EasyTable {
         table.endUpdates()
     }
     
+    /**
+     Remove rows in the view with animation, counterpart to addRowsBelow
+     */
     public func removeRowsBelow(indexPath: IndexPath, numberOfRows: Int) {
         guard let table = tableView else { return }
         var delRows: [IndexPath] = []
@@ -94,6 +119,9 @@ public class EasyTable {
         table.endUpdates()
     }
     
+    /**
+     removes rows above, optional include the sender (the gived indexpath), this is often used as a "done" button or similar
+     */
     public func removeRowsAbove(indexPath: IndexPath, numberOfRows: Int, includeSender: Bool = false) {
         guard let table = tableView else { return }
         var delRows: [IndexPath] = []

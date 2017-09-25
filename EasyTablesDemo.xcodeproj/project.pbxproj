@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CAD510D6A6FD85E9EA718D1 /* Pods_EasyTablesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10C56C1BC99F896E3735CE0 /* Pods_EasyTablesDemo.framework */; };
 		5D3534961F613DB400FAB43F /* SpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3534951F613DB400FAB43F /* SpecialTableViewCell.swift */; };
 		5D47103E1F5971F700E4F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47103D1F5971F700E4F2D2 /* AppDelegate.swift */; };
 		5D4710431F5971F700E4F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4710411F5971F700E4F2D2 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		5D4710481F5971F700E4F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4710461F5971F700E4F2D2 /* LaunchScreen.storyboard */; };
 		5D47105A1F59737500E4F2D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4710591F59737500E4F2D2 /* TableViewController.swift */; };
 		5D58B0751F5FE36B00C6D9F5 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D58B0741F5FE36B00C6D9F5 /* CellData.swift */; };
-		882980BDA77450836DF8AA30 /* Pods_EasyTablesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10C56C1BC99F896E3735CE0 /* Pods_EasyTablesDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				882980BDA77450836DF8AA30 /* Pods_EasyTablesDemo.framework in Frameworks */,
+				5CAD510D6A6FD85E9EA718D1 /* Pods_EasyTablesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
